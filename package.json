@@ -1,6 +1,6 @@
 {
-  "name": "@landing/006-next",
-  "version": "0.1.0",
+  "name": "siham.tech",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",

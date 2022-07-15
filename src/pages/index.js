@@ -13,7 +13,7 @@ import WorksBanner from 'sections/worksBanner';
 import RecentWorks from 'sections/recentWorks';
 
 import CustomerSupport from 'sections/customer-support';
-import Partner from 'sections/Partner';
+import Partner from 'sections/partner';
 import SkillDetails from 'sections/skillsDetails';
 
 

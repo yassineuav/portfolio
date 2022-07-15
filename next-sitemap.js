@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: 'https://startup-agency-minimal.vercel.app',
+  siteUrl: 'siham.tech',
   generateRobotsTxt: true,
   // optional
   // robotsTxtOptions: {
@@ -10,4 +10,3 @@ module.exports = {
   //   ],
   // },
 };
-

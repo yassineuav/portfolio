@@ -5,9 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "serve": "next start",
-    "export": "next export",
-    "postbuild": "next-sitemap"
+    "start": "next start",
+    "export": "next export"
   },
   "dependencies": {
     "@sanity/client": "^3.3.2",

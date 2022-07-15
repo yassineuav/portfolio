@@ -2,7 +2,7 @@ import {Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import Partner from 'assets/partner.png';
+import imgPartner from 'assets/partner.png';
 
 const data = {
   subTitle: 'Core Features & Skills',
@@ -20,7 +20,7 @@ export default function PartnerSection() {
           />
         </Box>
         <Box sx={{ px: [0, null, '40px', 0] }}>
-          <Image src={Partner} alt="Partner" />
+          <Image src={imgPartner} alt="Partner" />
         </Box>
       </Container>
     </section>

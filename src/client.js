@@ -5,8 +5,8 @@ export const client = sanityClient({
   dataset: 'production',
   apiVersion: '2022-07-04',
   useCdn: true,
-  projectId: `${process.env.REACT_APP_SANITY_PROJECT_ID}`,
-  token: process.env.REACT_APP_SANITY_TOKEN,
+  projectId: "g54oq7ef",
+  token: "skZ5CUetfH0w6gmmJomdFYCAF1CSec1HWUaRDB8VhEO2NKL5UUrpEWj96e2x30ZqOi6edxrkYzsuVNJLhNjkuXbCOb614WIZAFz7wDhdFNM4c4qSbRo8boXXvoIOXfYUByk0gTQjpwinmktRxQWjrIjBjhUt9nP7GsPwUw1wc36EqkpRwlw6",
 });
 
 const builder = imageUrlBuilder(client);

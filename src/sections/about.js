@@ -21,8 +21,8 @@ const data = [
       info:[ 
         {icon:<IoIosPerson/>, title:"Yassine Khaidouch", link:false},
         {icon:<IoIosMail />, title:"khaidouchyassine@gmail.com",link:false},
-        {icon:<IoIosPhonePortrait />, title:"720-809-3241",link:false},
-        {icon:<IoIosPin />, title:"Denver/Colorado",link:false},
+        {icon:<IoIosPhonePortrait />, title:"(510)332-5539",link:false},
+        {icon:<IoIosPin />, title:"Fremont/California",link:false},
       ],
     }, 
     {

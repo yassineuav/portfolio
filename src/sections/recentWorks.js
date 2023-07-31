@@ -48,7 +48,7 @@ const RecentWorks = ({data}) => {
               <a href={`${data.projectLink}`} 
                   target="_blank"
                   style={{color:"#f34", fontSize:'1.3em', display: "inline-block", fontWeight: 'bold' }}
-                  >See More Info ...<FaAngleRight />
+                  >Show More Info ...<FaAngleRight />
               </a>
               <Flex mt={4}>
                 <Button sx={styles.button} ><a href={`${data.githubLink}`} target="_blank"><FaGithub /> Source Code</a></Button>

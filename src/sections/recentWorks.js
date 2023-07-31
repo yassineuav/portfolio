@@ -52,10 +52,10 @@ const RecentWorks = ({data}) => {
               </a>
               <Flex mt={4}>
                 <Button sx={styles.button} ><a href={`${data.githubLink}`} target="_blank"><FaGithub /> Source Code</a></Button>
-                { data.isWebApp : (<Button sx={styles.button} >
+                { data.isWebApp ? (<Button sx={styles.button} >
                   <a href={`${data.playStoreLink}`} target="_blank">
                     <FaGooglePlay /> Download App</a>
-                  </Button>) ? 
+                  </Button>) :
                   <Button sx={styles.button} >
                   <a href={`${data.projectLink}`} target="_blank">
                     <FaWeebly /> Visit Website</a>

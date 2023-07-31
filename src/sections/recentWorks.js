@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Flex, Heading, Text, Button, Badge } from 'theme-ui';
 import Image from 'components/image';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
-import { FaAngleRight, FaGithub, FaGooglePlay } from 'react-icons/fa';
+import { FaAngleRight, FaGithub, FaGooglePlay, FaWeebly } from 'react-icons/fa';
 
 import { urlFor } from '../client';
 
@@ -52,8 +52,14 @@ const RecentWorks = ({data}) => {
               </a>
               <Flex mt={4}>
                 <Button sx={styles.button} ><a href={`${data.githubLink}`} target="_blank"><FaGithub /> Source Code</a></Button>
-                { !data.isWebApp &&  
-                 <Button sx={styles.button} ><a href={`${data.playStoreLink}`} target="_blank"><FaGooglePlay /> Download App</a></Button>
+                { data.isWebApp : (<Button sx={styles.button} >
+                  <a href={`${data.playStoreLink}`} target="_blank">
+                    <FaGooglePlay /> Download App</a>
+                  </Button>) ? 
+                  <Button sx={styles.button} >
+                  <a href={`${data.playStoreLink}`} target="_blank">
+                    <FaWeebly /> Visit Website</a>
+                  </Button>
                 }
               </Flex>
             </Box>

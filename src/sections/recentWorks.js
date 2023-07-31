@@ -57,7 +57,7 @@ const RecentWorks = ({data}) => {
                     <FaGooglePlay /> Download App</a>
                   </Button>) ? 
                   <Button sx={styles.button} >
-                  <a href={`${data.playStoreLink}`} target="_blank">
+                  <a href={`${data.projectLink}`} target="_blank">
                     <FaWeebly /> Visit Website</a>
                   </Button>
                 }
